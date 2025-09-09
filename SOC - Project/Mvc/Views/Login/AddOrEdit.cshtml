@@ -1,0 +1,745 @@
+﻿@model Mvc.Models.mvcLoginModel
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<div class="register-container">
+    <!-- Background Elements -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="register-content">
+        <!-- Left Side - Branding -->
+        <div class="register-brand">
+            <div class="brand-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 4L44 14V34L24 44L4 34V14L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            <path d="M24 4V44" stroke="currentColor" stroke-width="2" />
+                            <path d="M4 14L44 34" stroke="currentColor" stroke-width="2" />
+                            <path d="M44 14L4 34" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h1>Cozy Comfort</h1>
+                </div>
+                <p class="brand-tagline"> Experience comfort like never before — register now and start living in luxury..</p>
+                <div class="features">
+                    <div class="feature">
+                        <span class="feature-icon">🎯</span>
+                        <span>Quick Setup</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🛡️</span>
+                        <span>Secure Registration</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">💼</span>
+                        <span>Premium Access</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side - Register Form -->
+        <div class="register-form-container">
+            <div class="register-form-wrapper">
+                <div class="form-header">
+                    <h2>Create Account</h2>
+                    <p>Elevate your experience with Cozy Comfort. Sign up now to enjoy premium comfort and tailored perks.</p>
+                </div>
+
+                @using (Html.BeginForm("AddOrEdit", "Login", FormMethod.Post, new { @class = "register-form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.HiddenFor(model => model.UserId)
+                    @Html.ValidationSummary(true, "", new { @class = "alert alert-error" })
+
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <div class="input-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                            @Html.TextBoxFor(m => m.UserName, new
+                            {
+                                @class = "form-input",
+                                @placeholder = "Enter your username",
+                                @autocomplete = "username"
+                            })
+                            @Html.LabelFor(m => m.UserName, "Username", new { @class = "form-label" })
+                        </div>
+                        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "field-error" })
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <div class="input-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            @Html.TextBoxFor(m => m.Email, new
+                            {
+                                @class = "form-input",
+                                @placeholder = "Enter your email address",
+                                @autocomplete = "email",
+                                @type = "email"
+                            })
+                            @Html.LabelFor(m => m.Email, "Email Address", new { @class = "form-label" })
+                        </div>
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "field-error" })
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <div class="input-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                    <circle cx="12" cy="16" r="1"></circle>
+                                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                                </svg>
+                            </div>
+                            @Html.PasswordFor(m => m.Password, new
+                            {
+                                @class = "form-input",
+                                @placeholder = "Create a strong password",
+                                @autocomplete = "new-password"
+                            })
+                            @Html.LabelFor(m => m.Password, "Password", new { @class = "form-label" })
+                            <button type="button" class="password-toggle" onclick="togglePassword()">
+                                <svg class="eye-open" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <svg class="eye-closed" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+                                    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                                    <line x1="1" y1="1" x2="23" y2="23"></line>
+                                </svg>
+                            </button>
+                        </div>
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "field-error" })
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <div class="input-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            @Html.DropDownListFor(m => m.UserType, new SelectList(new[] { "Customer" }), "Select user type", new
+                            {
+                                @class = "form-input form-select",
+                                @placeholder = "Select user type"
+                            })
+                            @Html.LabelFor(m => m.UserType, "User Type", new { @class = "form-label" })
+                        </div>
+                        @Html.ValidationMessageFor(m => m.UserType, "", new { @class = "field-error" })
+                    </div>
+
+                    <div class="form-options">
+                        <label class="checkbox-wrapper">
+                            <input type="checkbox" name="terms" required>
+                            <span class="checkmark"></span>
+                            <span class="checkbox-label">I agree to the <a href="#" class="terms-link">Terms & Conditions</a></span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-register">
+                        <span>Create Account</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+
+                    <div class="form-footer">
+                        <p>Already have an account?</p>
+                        @Html.ActionLink("Sign In", "Login", "Login", null, new { @class = "login-link" })
+                    </div>
+                }
+
+                <!-- Success/Error Messages -->
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success">
+                        < cognitiveServices: none;
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22,4 12,14.01 9,11.01"></polyline>
+                        </svg>
+                        <span>@TempData["SuccessMessage"]</span>
+                    </div>
+                }
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-error">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="15" y1="9" x2="9" y2="15"></line>
+                            <line x1="9" y1="9" x2="15" y2="15"></line>
+                        </svg>
+                        <span>@TempData["ErrorMessage"]</span>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval");
+    <script>
+        function togglePassword() {
+            const passwordInput = document.querySelector('input[name="Password"]');
+            const eyeOpen = document.querySelector('.eye-open');
+            const eyeClosed = document.querySelector('.eye-closed');
+
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                eyeOpen.style.display = 'none';
+                eyeClosed.style.display = 'block';
+            } else {
+                passwordInput.type = 'password';
+                eyeOpen.style.display = 'block';
+                eyeClosed.style.display = 'none';
+            }
+        }
+
+        // Enhanced form interactions
+        document.querySelectorAll('.form-input').forEach(input => {
+            input.addEventListener('focus', function () {
+                this.parentElement.classList.add('focused');
+            });
+
+            input.addEventListener('blur', function () {
+                if (!this.value) {
+                    this.parentElement.classList.remove('focused');
+                }
+            });
+
+            input.addEventListener('change', function () {
+                if (this.value) {
+                    this.parentElement.classList.add('focused');
+                } else {
+                    this.parentElement.classList.remove('focused');
+                }
+            });
+
+            // Check if input has value on page load
+            if (input.value) {
+                input.parentElement.classList.add('focused');
+            }
+        });
+    </script>
+}
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        overflow-x: hidden;
+    }
+
+    .register-container {
+        min-height: 100vh;
+        position: relative;
+        background: linear-gradient(145deg, #ff6b6b 0%, #ff8e53 50%, #c71585 100%);
+    }
+
+    .bg-shapes {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .shape {
+        position: absolute;
+        border-radius: 30%;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(8px);
+        animation: float 8s ease-in-out infinite;
+    }
+
+    .shape-1 {
+        width: 180px;
+        height: 180px;
+        top: 15%;
+        left: 5%;
+        animation-delay: 0s;
+    }
+
+    .shape-2 {
+        width: 120px;
+        height: 120px;
+        top: 50%;
+        right: 10%;
+        animation-delay: 3s;
+    }
+
+    .shape-3 {
+        width: 140px;
+        height: 140px;
+        bottom: 15%;
+        left: 25%;
+        animation-delay: 5s;
+    }
+
+    .shape-4 {
+        width: 100px;
+        height: 100px;
+        top: 30%;
+        right: 35%;
+        animation-delay: 2s;
+    }
+
+    @@keyframes float {
+        0%, 100% {
+            transform: translateY(0px) scale(1);
+        }
+
+        50% {
+            transform: translateY(-30px) scale(1.1);
+        }
+    }
+
+    .register-content {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        min-height: 100vh;
+    }
+
+    .register-brand {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        color: white;
+    }
+
+    .brand-content {
+        max-width: 480px;
+        text-align: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .logo-icon {
+        color: white;
+        opacity: 0.95;
+    }
+
+    .logo h1 {
+        font-size: 2.8rem;
+        font-weight: 800;
+        margin: 0;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .brand-tagline {
+        font-size: 1.3rem;
+        opacity: 0.85;
+        margin-bottom: 2.5rem;
+        line-height: 1.7;
+        font-weight: 300;
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        justify-items: center;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        font-size: 1rem;
+        opacity: 0.9;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .feature-icon {
+        font-size: 1.8rem;
+    }
+
+    .register-form-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        background: white;
+        position: relative;
+    }
+
+        .register-form-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255,245,245,0.9) 0%, rgba(255,235,235,0.85) 100%);
+            backdrop-filter: blur(15px);
+        }
+
+    .register-form-wrapper {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        max-width: 400px;
+        padding: 2.5rem;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .form-header {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+        .form-header h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #2d1b4e;
+            margin-bottom: 0.6rem;
+        }
+
+        .form-header p {
+            color: #7b6b9a;
+            font-size: 0.95rem;
+        }
+
+    .form-group {
+        margin-bottom: 1.25rem;
+    }
+
+    .input-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .input-icon {
+        position: absolute;
+        left: 1.2rem;
+        z-index: 2;
+        color: #ff8e53;
+        transition: color 0.3s ease;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 1rem 1rem 1rem 3.5rem;
+        border: 2px solid #ffe5d9;
+        border-radius: 10px;
+        font-size: 1rem;
+        background: #fff7f0;
+        transition: all 0.3s ease;
+        outline: none;
+        appearance: none;
+    }
+
+        .form-input:focus {
+            border-color: #ff6b6b;
+            background: white;
+            box-shadow: 0 0 0 4px rgba(255, 107, 107, 0.15);
+        }
+
+            .form-input:focus + .form-label,
+            .input-wrapper.focused .form-label {
+                transform: translateY(-2.8rem) scale(0.9);
+                color: #ff6b6b;
+                background: white;
+                padding: 0 0.4rem;
+            }
+
+            .form-input:focus ~ .input-icon,
+            .input-wrapper.focused .input-icon {
+                color: #ff6b6b;
+            }
+
+    .form-select {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23ff8e53' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+        background-position: right 0.75rem center;
+        background-repeat: no-repeat;
+        background-size: 1.5em 1.5em;
+        padding-right: 2.5rem;
+    }
+
+        .form-select:focus {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23ff6b6b' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+        }
+
+    .form-label {
+        position: absolute;
+        left: 3.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #ff8e53;
+        font-size: 0.95rem;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        z-index: 1;
+    }
+
+    .password-toggle {
+        position: absolute;
+        right: 1.2rem;
+        background: none;
+        border: none;
+        color: #ff8e53;
+        cursor: pointer;
+        padding: 0;
+        transition: color 0.3s ease;
+        z-index: 2;
+    }
+
+        .password-toggle:hover {
+            color: #ff6b6b;
+        }
+
+    .form-options {
+        margin-bottom: 1.8rem;
+    }
+
+    .checkbox-wrapper {
+        display: flex;
+        align-items: flex-start;
+        cursor: pointer;
+        font-size: 0.85rem;
+        color: #7b6b9a;
+        line-height: 1.4;
+    }
+
+        .checkbox-wrapper input[type="checkbox"] {
+            display: none;
+        }
+
+    .checkmark {
+        width: 16px;
+        height: 16px;
+        border: 2px solid #ffe5d9;
+        border-radius: 5px;
+        margin-right: 0.6rem;
+        margin-top: 0.1rem;
+        position: relative;
+        transition: all 0.3s ease;
+        flex-shrink: 0;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked + .checkmark {
+        background: #ff6b6b;
+        border-color: #ff6b6b;
+    }
+
+        .checkbox-wrapper input[type="checkbox"]:checked + .checkmark::after {
+            content: '✓';
+            position: absolute;
+            top: -3px;
+            left: 2px;
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+    .terms-link {
+        color: #ff6b6b;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        .terms-link:hover {
+            color: #c71585;
+            text-decoration: underline;
+        }
+
+    .btn-register {
+        width: 100%;
+        padding: 1rem;
+        background: linear-gradient(135deg, #ff6b6b 0%, #c71585 100%);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+        transition: all 0.3s ease;
+        margin-bottom: 1.8rem;
+    }
+
+        .btn-register:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(255, 107, 107, 0.2);
+        }
+
+        .btn-register:active {
+            transform: scale(1);
+        }
+
+    .form-footer {
+        text-align: center;
+        color: #7b6b9a;
+    }
+
+        .form-footer p {
+            margin-bottom: 0.6rem;
+        }
+
+    .login-link {
+        color: #ff6b6b;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
+
+        .login-link:hover {
+            color: #c71585;
+        }
+
+    .alert {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        padding: 0.8rem;
+        border-radius: 10px;
+        margin-top: 1rem;
+        font-size: 0.85rem;
+    }
+
+    .alert-success {
+        background: rgba(72, 187, 120, 0.15);
+        color: #2f855a;
+        border: 1px solid rgba(72, 187, 120, 0.3);
+    }
+
+    .alert-error {
+        background: rgba(229, 62, 62, 0.15);
+        color: #9b2c2c;
+        border: 1px solid rgba(229, 62, 62, 0.3);
+    }
+
+    .field-error {
+        color: #e53e3e;
+        font-size: 0.8rem;
+        margin-top: 0.4rem;
+        display: block;
+    }
+
+    .input-validation-error {
+        border-color: #e53e3e !important;
+        box-shadow: 0 0 0 3px rgba(229, 62, 62, 0.15) !important;
+    }
+
+    /* Mobile Responsiveness */
+    @@media (max-width: 1024px) {
+        .register-content {
+            flex-direction: column;
+        }
+
+        .register-brand {
+            min-height: 35vh;
+            padding: 1.8rem;
+        }
+
+        .logo h1 {
+            font-size: 2.2rem;
+        }
+
+        .brand-tagline {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .features {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.8rem;
+        }
+
+        .register-form-wrapper {
+            max-height: none;
+        }
+    }
+
+    @@media (max-width: 768px) {
+        .register-form-wrapper {
+            padding: 2rem 1.2rem;
+            margin: 1.2rem;
+            border-radius: 14px;
+        }
+
+        .form-header h2 {
+            font-size: 1.6rem;
+        }
+
+        .brand-content {
+            max-width: 360px;
+        }
+
+        .logo {
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+            .logo h1 {
+                font-size: 1.6rem;
+            }
+    }
+
+    @@media (max-width: 480px) {
+        .register-form-wrapper {
+            padding: 1.8rem 1rem;
+        }
+
+        .form-header h2 {
+            font-size: 1.4rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+    }
+</style>

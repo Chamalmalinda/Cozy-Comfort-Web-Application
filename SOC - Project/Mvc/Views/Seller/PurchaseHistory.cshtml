@@ -1,0 +1,762 @@
+﻿@model IEnumerable<Mvc.Models.mvcPurchaseModel>
+
+@{
+    ViewBag.Title = "Purchase History";
+}
+
+<div class="page-container">
+    <!-- Background Elements -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <!-- Modern Navbar -->
+    <nav class="modern-navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <div class="brand-logo">
+                    <div class="logo-icon">
+                        <svg width="32" height="32" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 4L44 14V34L24 44L4 34V14L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                            <path d="M24 4V44" stroke="currentColor" stroke-width="2" />
+                            <path d="M4 14L44 34" stroke="currentColor" stroke-width="2" />
+                            <path d="M44 14L4 34" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <span class="brand-text">Cozy Comfort</span>
+                </div>
+                <span class="portal-text">Seller Portal</span>
+            </div>
+            <div class="navbar-menu">
+                <div class="user-info">
+                    <span class="welcome-text">Welcome, @Session["UserName"]</span>
+                </div>
+                <a href="@Url.Action("Logout", "Login")" class="logout-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                        <polyline points="16,17 21,12 16,7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
+                    </svg>
+                    Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="content-container">
+            <!-- Header Section -->
+            <div class="page-header">
+                <div class="header-content">
+                    <h1 class="page-title">Purchase History</h1>
+                    <nav class="breadcrumb-nav">
+                        <a href="@Url.Action("Home", "Seller")" class="breadcrumb-link">Dashboard</a>
+                        <span class="breadcrumb-separator">/</span>
+                        <span class="breadcrumb-current">Purchase History</span>
+                    </nav>
+                </div>
+                <div class="header-actions">
+                    <a href="@Url.Action("Home", "Seller")" class="btn btn-secondary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 12H5"></path>
+                            <path d="M12 19l-7-7 7-7"></path>
+                        </svg>
+                        Back to Dashboard
+                    </a>
+                    <a href="@Url.Action("AvailableProducts", "Seller")" class="btn btn-primary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 5v14"></path>
+                            <path d="M5 12h14"></path>
+                        </svg>
+                        Make New Purchase
+                    </a>
+                </div>
+            </div>
+
+            @if (Model != null && Model.Any())
+            {
+                <!-- Statistics Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card stat-primary">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                                <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                            </svg>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-value">@Model.Count()</div>
+                            <div class="stat-label">Total Orders</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card stat-success">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                <polyline points="3.27,6.96 12,12.01 20.73,6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-value">@Model.Sum(m => m.PurchasedQuantity)</div>
+                            <div class="stat-label">Total Items</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card stat-info">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-value">$@Model.Sum(m => m.TotalAmount).ToString("F2")</div>
+                            <div class="stat-label">Total Spent</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Purchase History Table -->
+                <div class="data-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Your Purchase Records</h3>
+                        <div class="card-subtitle">Manage and track all your purchases</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="table-container">
+                            <table class="modern-table">
+                                <thead>
+                                    <tr>
+                                        <th>Order ID</th>
+                                        <th>Product Name</th>
+                                        <th>Quantity</th>
+                                        <th>Total Amount</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.OrderByDescending(m => m.PurchaseId))
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div class="order-id">
+                                                    <span class="id-badge">#@Html.DisplayFor(modelItem => item.PurchaseId)</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="product-info">
+                                                    <span class="product-name">@Html.DisplayFor(modelItem => item.Productname)</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="quantity-badge">
+                                                    <span class="quantity-value">@Html.DisplayFor(modelItem => item.PurchasedQuantity)</span>
+                                                    <span class="quantity-unit">units</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="amount-display">
+                                                    <span class="currency">$</span>
+                                                    <span class="amount">@Html.DisplayFor(modelItem => item.TotalAmount)</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="@Url.Action("PurchaseDetails", "Seller", new { id = item.PurchaseId })"
+                                                   class="action-btn">
+                                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                        <circle cx="12" cy="12" r="3"></circle>
+                                                    </svg>
+                                                    View Details
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <!-- Empty State -->
+                <div class="empty-state">
+                    <div class="empty-icon">
+                        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="empty-title">No Purchase History Found</h3>
+                    <p class="empty-description">You haven't made any purchases yet. Start by browsing our available products.</p>
+                    <a href="@Url.Action("AvailableProducts", "Seller")" class="btn btn-primary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        Browse Products
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Success/Error Messages -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="toast toast-success">
+        <div class="toast-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22,4 12,14.01 9,11.01"></polyline>
+            </svg>
+        </div>
+        <div class="toast-content">
+            <span>@TempData["SuccessMessage"]</span>
+        </div>
+        <button class="toast-close" onclick="this.parentElement.remove()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="toast toast-error">
+        <div class="toast-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="15" y1="9" x2="9" y2="15"></line>
+                <line x1="9" y1="9" x2="15" y2="15"></line>
+            </svg>
+        </div>
+        <div class="toast-content">
+            <span>@TempData["ErrorMessage"]</span>
+        </div>
+        <button class="toast-close" onclick="this.parentElement.remove()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+    </div>
+}
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        background: #fff7ed;
+        color: #2d1b3b;
+        line-height: 1.6;
+    }
+
+    .page-container {
+        min-height: 100vh;
+        position: relative;
+        background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 50%, #c71585 100%);
+        overflow: hidden;
+    }
+
+    .bg-shapes {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .shape {
+        position: absolute;
+        border-radius: 30%;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(12px);
+        animation: float 10s ease-in-out infinite;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .shape-1 {
+        width: 250px;
+        height: 250px;
+        top: 10%;
+        left: 10%;
+        animation-delay: 0s;
+    }
+
+    .shape-2 {
+        width: 180px;
+        height: 180px;
+        top: 60%;
+        right: 15%;
+        animation-delay: 2.5s;
+    }
+
+    .shape-3 {
+        width: 120px;
+        height: 120px;
+        bottom: 20%;
+        left: 20%;
+        animation-delay: 5s;
+    }
+
+    .shape-4 {
+        width: 80px;
+        height: 80px;
+        top: 30%;
+        right: 30%;
+        animation-delay: 7.5s;
+    }
+
+    keyframes float {
+        0%, 100% {
+            transform: translateY(0) rotate(0deg) scale(1);
+        }
+        50% {
+            transform: translateY(-30px) rotate(90deg) scale(1.05);
+        }
+    }
+
+    .modern-navbar {
+        position: relative;
+        z-index: 10;
+        background: rgba(255, 245, 237, 0.95);
+        backdrop-filter: blur(15px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 1.25rem 0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar-container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+    }
+
+    .brand-logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .logo-icon {
+        color: #ff6b6b;
+    }
+
+    .brand-text {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #2d1b3b;
+    }
+
+    .portal-text {
+        color: #9b4b7c;
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .welcome-text {
+        color: #6b4e31;
+        font-weight: 600;
+    }
+
+    .logout-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        color: #d6336c;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.75rem 1.5rem;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .logout-btn:hover {
+        background: rgba(214, 51, 108, 0.1);
+        color: #b91c1c;
+        transform: translateY(-2px);
+    }
+
+    .main-content {
+        position: relative;
+        z-index: 2;
+        padding: 2.5rem 0;
+        min-height: calc(100vh - 90px);
+    }
+
+    .content-container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 2.5rem;
+    }
+
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.5rem;
+        background: rgba(255, 245, 237, 0.95);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        padding: 2.5rem;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    }
+
+    .header-content h1 {
+        font-size: 2.75rem;
+        font-weight: 800;
+        color: #2d1b3b;
+        margin-bottom: 0.75rem;
+    }
+
+    .breadcrumb-nav {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 0.95rem;
+    }
+
+    .breadcrumb-link {
+        color: #ff8e53;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
+
+    .breadcrumb-link:hover {
+        color: #e07b39;
+    }
+
+    .breadcrumb-separator {
+        color: #c4b5fd;
+    }
+
+    .breadcrumb-current {
+        color: #9b4b7c;
+    }
+
+    .header-actions {
+        display: flex;
+        gap: 1.25rem;
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.9rem 1.75rem;
+        border-radius: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #ff6b6b 0%, #c71585 100%);
+        color: white;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
+    }
+
+    .btn-secondary {
+        background: rgba(255, 245, 237, 0.9);
+        color: #6b4e31;
+        border: 1px solid #fed7aa;
+    }
+
+    .btn-secondary:hover {
+        background: #fff7ed;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .stat-card {
+        background: rgba(255, 245, 237, 0.95);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        padding: 2.5rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .stat-card:hover {
+        transform: translateY(-6px);
+    }
+
+    .stat-icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .stat-primary .stat-icon {
+        background: rgba(255, 107, 107, 0.1);
+        color: #ff6b6b;
+    }
+
+    .stat-success .stat-icon {
+        background: rgba(255, 142, 83, 0.1);
+        color: #ff8e53;
+    }
+
+    .stat-info .stat-icon {
+        background: rgba(199, 21, 133, 0.1);
+        color: #c71585;
+    }
+
+    .stat-value {
+        font-size: 2.25rem;
+        font-weight: 800;
+        color: #2d1b3b;
+        line-height: 1;
+    }
+
+    .stat-label {
+        color: #9b4b7c;
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+
+    .data-card {
+        background: rgba(255, 245, 237, 0.95);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        overflow: hidden;
+    }
+
+    .card-header {
+        padding: 2.5rem 2.5rem 1.25rem;
+        border-bottom: 1px solid #fed7aa;
+    }
+
+    .card-title {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #2d1b3b;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-subtitle {
+        color: #9b4b7c;
+        font-size: 0.95rem;
+    }
+
+    .card-content {
+        padding: 0;
+    }
+
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .modern-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .modern-table th {
+        background: #fff7ed;
+        color: #6b4e31;
+        font-weight: 700;
+        padding: 1.25rem 2.5rem;
+        text-align: left;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        border-bottom: 1px solid #fed7aa;
+    }
+
+    .modern-table td {
+        padding: 1.75rem 2.5rem;
+        border-bottom: 1px solid #fef3c7;
+        vertical-align: middle;
+    }
+
+    .modern-table tr:hover {
+        background: #fff7ed;
+    }
+
+    .id-badge {
+        background: #fed7aa;
+        color: #6b4e31;
+        padding: 0.3rem 1rem;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+
+    .product-name {
+        font-weight: 700;
+        color: #2d1b3b;
+    }
+
+    .quantity-badge {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: rgba(255, 142, 83, 0.1);
+        color: #ff8e53;
+        padding: 0.3rem 1rem;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        width: fit-content;
+    }
+
+    .amount-display {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 800;
+        color: #d6336c;
+        font-size: 1.2rem;
+    }
+
+    .action-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem 1.25rem;
+        background: rgba(255, 107, 107, 0.1);
+        color: #ff6b6b;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .action-btn:hover {
+        background: #ff6b6b;
+        color: white;
+        transform: translateY(-2px);
+    }
+
+    .empty-state {
+        text-align: center;
+        padding: 5rem 2.5rem;
+        background: rgba(255, 245, 237, 0.95);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    }
+
+    .empty-icon {
+        color: #c4b5fd;
+        margin-bottom: 2rem;
+    }
+
+    .empty-title {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #2d1b3b;
+        margin-bottom: 0.75rem;
+    }
+
+    .empty-description {
+        color: #9b4b7c;
+        margin-bottom: 2.5rem;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .toast {
+        position: fixed;
+        top: 2.5rem;
+        right: 2.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        padding: 1.25rem 2rem;
+        border-radius: 14px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        z-index: 1000;
+        backdrop-filter: blur(15px);
+        max-width: 450px;
+    }
+
+    .toast-success {
+        background: rgba(255, 142, 83, 0.9);
+        color: white;
+        border: 1px solid rgba(255, 142, 83, 0.3);
+    }
+
+    .toast-error {
+        background: rgba(214, 51, 108, 0.9);
+        color: white;
+        border: 1px solid rgba(214, 51, 108, 0.3);
+    }
+
+    .toast-close {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        border-radius: 6px;
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+    }
+
+    .toast-close:hover {
+        opacity: 1;
+    }
+</style>

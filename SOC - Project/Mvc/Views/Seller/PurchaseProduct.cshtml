@@ -1,0 +1,860 @@
+﻿@model Mvc.Models.mvcPurchaseModel
+
+@{
+    ViewBag.Title = "Purchase Product";
+}
+
+<div class="page-container">
+    <!-- Background Elements -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <!-- Modern Navbar -->
+    <nav class="modern-navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <div class="brand-logo">
+                    <div class="logo-icon">
+                        <svg width="32" height="32" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 4L44 14V34L24 44L4 34V14L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <span class="brand-text">Cozy Comfort</span>
+                </div>
+                <span class="portal-text">Seller Portal</span>
+            </div>
+            <div class="navbar-menu">
+                <span class="welcome-text">Welcome, @Session["UserName"]</span>
+                <a href="@Url.Action("Logout", "Login")" class="logout-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                        <polyline points="16,17 21,12 16,7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
+                    </svg>
+                    Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="content-container">
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb-nav">
+                <a href="@Url.Action("Home", "Seller")" class="breadcrumb-link">Dashboard</a>
+                <span class="breadcrumb-separator">/</span>
+                <a href="@Url.Action("AvailableProducts", "Seller")" class="breadcrumb-link">Products</a>
+                <span class="breadcrumb-separator">/</span>
+                <span class="breadcrumb-current">Purchase</span>
+            </nav>
+
+            <!-- Purchase Card -->
+            <div class="data-card">
+                <div class="card-header">
+                    <h2 class="card-title">Purchase: @ViewBag.BlanketName</h2>
+                    <div class="card-subtitle">Complete your purchase details</div>
+                </div>
+
+                <div class="card-content">
+                    <!-- Product Info Grid -->
+                    <div class="stats-grid">
+                        <div class="stat-card stat-primary">
+                            <div class="stat-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+                                    <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-label">Product Name</div>
+                                <div class="stat-value">@ViewBag.BlanketName</div>
+                            </div>
+                        </div>
+                        <div class="stat-card stat-success">
+                            <div class="stat-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-label">Price per Unit</div>
+                                <div class="stat-value">$@ViewBag.BlanketPrice</div>
+                            </div>
+                        </div>
+                        <div class="stat-card stat-info">
+                            <div class="stat-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                    <polyline points="3.27,6.96 12,12.01 20.73,6.96"></polyline>
+                                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-label">Available Quantity</div>
+                                <div class="stat-value">@ViewBag.AvailableQuantity units</div>
+                            </div>
+                        </div>
+                        <div class="stat-card stat-primary">
+                            <div class="stat-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-label">Buyer</div>
+                                <div class="stat-value">@Session["UserName"]</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Purchase Form -->
+                    @using (Html.BeginForm("PurchaseProduct", "Seller", FormMethod.Post, new { @class = "purchase-form" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(model => model.Productname)
+                        @Html.HiddenFor(model => model.UserName)
+                        @Html.Hidden("blanketPrice", (int)(ViewBag.BlanketPrice ?? 0))
+                        @Html.Hidden("blanketId", (int)(ViewBag.BlanketId ?? 0))
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    @Html.EditorFor(model => model.PurchasedQuantity, new
+                                    {
+                                        htmlAttributes = new
+                                        {
+                                            @class = "form-input",
+                                            @id = "quantityInput",
+                                            @max = ViewBag.AvailableQuantity,
+                                            @min = "1",
+                                            @type = "number",
+                                            @placeholder = "Enter quantity"
+                                        }
+                                    })
+                                    @Html.LabelFor(model => model.PurchasedQuantity, "Quantity to Purchase", new { @class = "form-label" })
+                                </div>
+                                @Html.ValidationMessageFor(model => model.PurchasedQuantity, "", new { @class = "field-error" })
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-wrapper">
+                                    <div class="form-input total-display" id="totalAmount">$0.00</div>
+                                    <label class="form-label">Total Amount</label>
+                                    @Html.HiddenFor(model => model.TotalAmount, new { @id = "hiddenTotalAmount" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order Summary -->
+                        <div class="order-summary" id="orderSummary" style="display: none;">
+                            <div class="summary-header">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M12 6v6l4 2"></path>
+                                </svg>
+                                <span>Order Summary</span>
+                            </div>
+                            <div class="summary-details">
+                                <div class="summary-row">
+                                    <span>Product:</span>
+                                    <span>@ViewBag.BlanketName</span>
+                                </div>
+                                <div class="summary-row">
+                                    <span>Unit Price:</span>
+                                    <span>$@ViewBag.BlanketPrice</span>
+                                </div>
+                                <div class="summary-row">
+                                    <span>Quantity:</span>
+                                    <span><span id="summaryQuantity">0</span> units</span>
+                                </div>
+                                <div class="summary-row total-row">
+                                    <span>Total:</span>
+                                    <span>$<span id="summaryTotal">0.00</span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="form-actions">
+                            <a href="@Url.Action("AvailableProducts", "Seller")" class="btn btn-secondary">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M19 12H5"></path>
+                                    <path d="M12 19l-7-7 7-7"></path>
+                                </svg>
+                                Back to Products
+                            </a>
+                            <button type="submit" class="btn btn-primary" id="purchaseBtn" disabled>
+                                <span>Complete Purchase</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Success/Error Messages -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="toast toast-success">
+        <div class="toast-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22,4 12,14.01 9,11.01"></polyline>
+            </svg>
+        </div>
+        <div class="toast-content">
+            <span>@TempData["SuccessMessage"]</span>
+        </div>
+        <button class="toast-close" onclick="this.parentElement.remove()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="toast toast-error">
+        <div class="toast-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="15" y1="9" x2="9" y2="15"></line>
+                <line x1="9" y1="9" x2="15" y2="15"></line>
+            </svg>
+        </div>
+        <div class="toast-content">
+            <span>@TempData["ErrorMessage"]</span>
+        </div>
+        <button class="toast-close" onclick="this.parentElement.remove()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var unitPrice = @ViewBag.BlanketPrice;
+            var maxQuantity = @ViewBag.AvailableQuantity;
+            var quantityInput = document.getElementById('quantityInput');
+            var totalAmount = document.getElementById('totalAmount');
+            var hiddenTotal = document.getElementById('hiddenTotalAmount');
+            var orderSummary = document.getElementById('orderSummary');
+            var purchaseBtn = document.getElementById('purchaseBtn');
+
+            function updateTotals() {
+                var quantity = parseInt(quantityInput.value) || 0;
+                var total = quantity * unitPrice;
+
+                totalAmount.textContent = '$' + total.toFixed(2);
+                hiddenTotal.value = total;
+                document.getElementById('summaryQuantity').textContent = quantity;
+                document.getElementById('summaryTotal').textContent = total.toFixed(2);
+
+                var isValid = quantity > 0 && quantity <= maxQuantity;
+
+                if (isValid) {
+                    orderSummary.style.display = 'block';
+                    purchaseBtn.disabled = false;
+                    quantityInput.classList.remove('error');
+                    quantityInput.parentElement.classList.add('focused');
+                } else {
+                    orderSummary.style.display = 'none';
+                    purchaseBtn.disabled = true;
+                    if (quantity > 0) {
+                        quantityInput.classList.add('error');
+                    }
+                }
+            }
+
+            quantityInput.addEventListener('input', updateTotals);
+            quantityInput.addEventListener('focus', function() {
+                this.parentElement.classList.add('focused');
+            });
+            quantityInput.addEventListener('blur', function() {
+                if (!this.value) {
+                    this.parentElement.classList.remove('focused');
+                }
+            });
+
+            // Initialize
+            if (quantityInput.value) {
+                quantityInput.parentElement.classList.add('focused');
+                updateTotals();
+            }
+        });
+    </script>
+}
+
+<style>
+    /* Resetting default styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Setting up font and background */
+    body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        background: #fff7ed;
+        color: #2d1b3b;
+        line-height: 1.6;
+    }
+
+    /* Main container with sunset gradient */
+    .page-container {
+        min-height: 100vh;
+        position: relative;
+        background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 50%, #c71585 100%);
+        overflow: hidden;
+    }
+
+    /* Background shapes for decorative effect */
+    .bg-shapes {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .shape {
+        position: absolute;
+        border-radius: 30%;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(12px);
+        animation: float 10s ease-in-out infinite;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .shape-1 {
+        width: 250px;
+        height: 250px;
+        top: 10%;
+        left: 10%;
+        animation-delay: 0s;
+    }
+
+    .shape-2 {
+        width: 180px;
+        height: 180px;
+        top: 60%;
+        right: 15%;
+        animation-delay: 2.5s;
+    }
+
+    .shape-3 {
+        width: 120px;
+        height: 120px;
+        bottom: 20%;
+        left: 20%;
+        animation-delay: 5s;
+    }
+
+    .shape-4 {
+        width: 80px;
+        height: 80px;
+        top: 30%;
+        right: 30%;
+        animation-delay: 7.5s;
+    }
+
+    keyframes float {
+        0%, 100% {
+            transform: translateY(0) rotate(0deg) scale(1);
+        }
+        50% {
+            transform: translateY(-30px) rotate(90deg) scale(1.05);
+        }
+    }
+
+    /* Navbar styling */
+    .modern-navbar {
+        position: relative;
+        z-index: 10;
+        background: rgba(255, 245, 237, 0.95);
+        backdrop-filter: blur(15px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 1.25rem 0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar-container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+    }
+
+    .brand-logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+    }
+
+    .logo-icon {
+        color: #ff6b6b;
+    }
+
+    .brand-text {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #2d1b3b;
+    }
+
+    .portal-text {
+        color: #9b4b7c;
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+
+    .navbar-menu {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .welcome-text {
+        color: #6b4e31;
+        font-weight: 600;
+    }
+
+    .logout-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        color: #d6336c;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.75rem 1.5rem;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .logout-btn:hover {
+        background: rgba(214, 51, 108, 0.1);
+        color: #b91c1c;
+        transform: translateY(-2px);
+    }
+
+    /* Main content styling */
+    .main-content {
+        position: relative;
+        z-index: 2;
+        padding: 2.5rem 0;
+        min-height: calc(100vh - 90px);
+    }
+
+    .content-container {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 2.5rem;
+    }
+
+    /* Breadcrumb navigation */
+    .breadcrumb-nav {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-size: 0.95rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .breadcrumb-link {
+        color: #ff8e53;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
+
+    .breadcrumb-link:hover {
+        color: #e07b39;
+    }
+
+    .breadcrumb-separator {
+        color: #c4b5fd;
+    }
+
+    .breadcrumb-current {
+        color: #9b4b7c;
+    }
+
+    /* Purchase card styling */
+    .data-card {
+        background: rgba(255, 245, 237, 0.95);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        overflow: hidden;
+    }
+
+    .card-header {
+        padding: 2.5rem 2.5rem 1.25rem;
+        border-bottom: 1px solid #fed7aa;
+    }
+
+    .card-title {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #2d1b3b;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-subtitle {
+        color: #9b4b7c;
+        font-size: 0.95rem;
+    }
+
+    .card-content {
+        padding: 2.5rem;
+    }
+
+    /* Stats grid styling */
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .stat-card {
+        background: rgba(255, 245, 237, 0.95);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        padding: 2.5rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .stat-card:hover {
+        transform: translateY(-6px);
+    }
+
+    .stat-icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .stat-primary .stat-icon {
+        background: rgba(255, 107, 107, 0.1);
+        color: #ff6b6b;
+    }
+
+    .stat-success .stat-icon {
+        background: rgba(255, 142, 83, 0.1);
+        color: #ff8e53;
+    }
+
+    .stat-info .stat-icon {
+        background: rgba(199, 21, 133, 0.1);
+        color: #c71585;
+    }
+
+    .stat-content {
+        flex: 1;
+    }
+
+    .stat-label {
+        color: #9b4b7c;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .stat-value {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #2d1b3b;
+    }
+
+    /* Form styling */
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .form-group {
+        position: relative;
+    }
+
+    .input-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .form-input {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid #fed7aa;
+        border-radius: 10px;
+        font-size: 1rem;
+        background: #fff7ed;
+        transition: all 0.4s ease-in-out;
+        outline: none;
+    }
+
+    .form-input:focus {
+        border-color: #ff8e53;
+        background: white;
+        box-shadow: 0 0 0 4px rgba(255, 142, 83, 0.2);
+    }
+
+    .form-input:focus + .form-label,
+    .input-wrapper.focused .form-label {
+        transform: translateY(-2.5rem) scale(0.85);
+        color: #ff8e53;
+        background: white;
+        padding: 0 0.5rem;
+    }
+
+    .form-input.error {
+        border-color: #d6336c;
+        box-shadow: 0 0 0 4px rgba(214, 51, 108, 0.2);
+    }
+
+    .form-label {
+        position: absolute;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #9b4b7c;
+        font-size: 1rem;
+        pointer-events: none;
+        transition: all 0.4s ease-in-out;
+        z-index: 1;
+    }
+
+    .total-display {
+        background: rgba(255, 142, 83, 0.1) !important;
+        color: #ff8e53;
+        font-weight: 700;
+        font-size: 1.25rem;
+        cursor: default;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    /* Order summary styling */
+    .order-summary {
+        background: rgba(255, 245, 237, 0.95);
+        backdrop-filter: blur(15px);
+        border-radius: 20px;
+        padding: 2rem;
+        margin-bottom: 2.5rem;
+        border: 1px solid #fed7aa;
+    }
+
+    .summary-header {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        color: #ff6b6b;
+        font-weight: 600;
+        margin-bottom: 1.25rem;
+    }
+
+    .summary-details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+    }
+
+    .summary-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.95rem;
+    }
+
+    .summary-row.total-row {
+        border-top: 1px solid #fed7aa;
+        padding-top: 0.9rem;
+        font-weight: 800;
+        font-size: 1.1rem;
+        color: #d6336c;
+    }
+
+    /* Action buttons styling */
+    .form-actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.25rem;
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.9rem 1.75rem;
+        border-radius: 14px;
+        font-weight: 700;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #ff6b6b 0%, #c71585 100%);
+        color: white;
+    }
+
+    .btn-primary:hover:not(:disabled) {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3);
+    }
+
+    .btn-primary:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+    .btn-secondary {
+        background: rgba(255, 245, 237, 0.9);
+        color: #6b4e31;
+        border: 1px solid #fed7aa;
+    }
+
+    .btn-secondary:hover {
+        background: #fff7ed;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Toast notifications styling */
+    .toast {
+        position: fixed;
+        top: 2.5rem;
+        right: 2.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        padding: 1.25rem 2rem;
+        border-radius: 14px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        z-index: 1000;
+        backdrop-filter: blur(15px);
+        max-width: 450px;
+    }
+
+    .toast-success {
+        background: rgba(255, 142, 83, 0.9);
+        color: white;
+        border: 1px solid rgba(255, 142, 83, 0.3);
+    }
+
+    .toast-error {
+        background: rgba(214, 51, 108, 0.9);
+        color: white;
+        border: 1px solid rgba(214, 51, 108, 0.3);
+    }
+
+    .toast-close {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem;
+        border-radius: 6px;
+        opacity: 0.8;
+        transition: opacity 0.3s ease;
+    }
+
+    .toast-close:hover {
+        opacity: 1;
+    }
+
+    .field-error {
+        color: #d6336c;
+        font-size: 0.9rem;
+        margin-top: 0.6rem;
+        display: block;
+    }
+
+    /* Mobile responsiveness */
+    media (max-width: 768px) {
+        .navbar-container {
+            padding: 0 1.5rem;
+        }
+
+        .navbar-menu {
+            flex-direction: column;
+            gap: 0.75rem;
+            align-items: flex-end;
+        }
+
+        .main-content {
+            padding: 1.5rem 0;
+        }
+
+        .content-container {
+            padding: 0 1.5rem;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+        }
+
+        .form-row {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
+        .form-actions {
+            flex-direction: column-reverse;
+            align-items: stretch;
+        }
+
+        .btn {
+            justify-content: center;
+        }
+
+        .stats-grid {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+    }
+</style>

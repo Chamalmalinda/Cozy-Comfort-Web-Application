@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Mvc",
+    "\\Mvc\\Controllers",
+    "\\Mvc\\Views",
+    "\\Mvc\\Views\\Login",
+    "\\WebApi",
+    "\\WebApi\\Areas",
+    "\\WebApi\\Areas\\HelpPage"
+  ],
+  "SelectedNode": "\\WebApi\\Areas\\HelpPage\\HelpPageConfigurationExtensions.cs",
+  "PreviewInSolutionExplorer": false
+}

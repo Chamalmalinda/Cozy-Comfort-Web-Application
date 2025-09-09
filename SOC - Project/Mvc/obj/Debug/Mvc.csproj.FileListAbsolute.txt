@@ -1,0 +1,470 @@
+E:\My Projects\SOC\SOC\Mvc\bin\Mvc.dll.config
+E:\My Projects\SOC\SOC\Mvc\bin\Mvc.dll
+E:\My Projects\SOC\SOC\Mvc\bin\Mvc.pdb
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\csc.exe
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\csc.exe.config
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\csc.rsp
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\csi.exe
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\csi.exe.config
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\csi.rsp
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.Managed.Core.targets
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.AppContext.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Collections.Immutable.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Console.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Globalization.Calendars.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.IO.Compression.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.IO.FileSystem.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Net.Http.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Net.Sockets.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Reflection.Metadata.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.ValueTuple.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Xml.XmlDocument.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Xml.XPath.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\vbc.exe
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\vbc.exe.config
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\vbc.rsp
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\VBCSCompiler.exe
+E:\My Projects\SOC\SOC\Mvc\bin\roslyn\VBCSCompiler.exe.config
+E:\My Projects\SOC\SOC\Mvc\bin\Antlr3.Runtime.dll
+E:\My Projects\SOC\SOC\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\My Projects\SOC\SOC\Mvc\bin\Microsoft.Web.Infrastructure.dll
+E:\My Projects\SOC\SOC\Mvc\bin\Newtonsoft.Json.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.Helpers.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.Mvc.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.Optimization.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.Razor.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.WebPages.Deployment.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.WebPages.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.WebPages.Razor.dll
+E:\My Projects\SOC\SOC\Mvc\bin\WebGrease.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.Helpers.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.Mvc.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.Optimization.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.Razor.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.WebPages.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.WebPages.Deployment.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Web.WebPages.Razor.xml
+E:\My Projects\SOC\SOC\Mvc\bin\Newtonsoft.Json.xml
+E:\My Projects\SOC\SOC\Mvc\bin\Antlr3.Runtime.pdb
+E:\My Projects\SOC\SOC\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\My Projects\SOC\SOC\Mvc\obj\Debug\Mvc.csproj.AssemblyReference.cache
+E:\My Projects\SOC\SOC\Mvc\obj\Debug\Mvc.csproj.CoreCompileInputs.cache
+E:\My Projects\SOC\SOC\Mvc\obj\Debug\Mvc.csproj.Up2Date
+E:\My Projects\SOC\SOC\Mvc\obj\Debug\Mvc.dll
+E:\My Projects\SOC\SOC\Mvc\obj\Debug\Mvc.pdb
+E:\My Projects\SOC\SOC\Mvc\bin\Newtonsoft.Json.Bson.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Buffers.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Memory.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Net.Http.Formatting.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Numerics.Vectors.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\My Projects\SOC\SOC\Mvc\bin\System.Threading.Tasks.Extensions.dll
+E:\My Projects\SOC\SOC\Mvc\bin\Newtonsoft.Json.Bson.pdb
+E:\My Projects\SOC\SOC\Mvc\bin\Newtonsoft.Json.Bson.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Buffers.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Memory.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Net.Http.Formatting.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Numerics.Vectors.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\My Projects\SOC\SOC\Mvc\bin\System.Threading.Tasks.Extensions.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Mvc.dll.config
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Mvc.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Mvc.pdb
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\csc.exe
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\csc.exe.config
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\csc.rsp
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\csi.exe
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\csi.exe.config
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\csi.rsp
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.Managed.Core.targets
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.AppContext.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Collections.Immutable.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Console.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Globalization.Calendars.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.IO.Compression.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.IO.FileSystem.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Net.Http.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Net.Sockets.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Reflection.Metadata.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.ValueTuple.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Xml.XmlDocument.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Xml.XPath.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\vbc.exe
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\vbc.exe.config
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\vbc.rsp
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\VBCSCompiler.exe
+E:\My Projects\SOC\SOC - Project\Mvc\bin\roslyn\VBCSCompiler.exe.config
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Antlr3.Runtime.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Microsoft.Web.Infrastructure.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Newtonsoft.Json.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Buffers.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Memory.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Net.Http.Formatting.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Numerics.Vectors.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Threading.Tasks.Extensions.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.Helpers.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.Mvc.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.Optimization.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.Razor.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.WebPages.Deployment.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.WebPages.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.WebPages.Razor.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\WebGrease.dll
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.pdb
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Buffers.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Memory.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Net.Http.Formatting.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Numerics.Vectors.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Threading.Tasks.Extensions.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.Helpers.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.Mvc.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.Optimization.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.Razor.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.WebPages.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.WebPages.Deployment.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\System.Web.WebPages.Razor.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Newtonsoft.Json.xml
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Antlr3.Runtime.pdb
+E:\My Projects\SOC\SOC - Project\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\My Projects\SOC\SOC - Project\Mvc\obj\Debug\Mvc.csproj.AssemblyReference.cache
+E:\My Projects\SOC\SOC - Project\Mvc\obj\Debug\Mvc.csproj.CoreCompileInputs.cache
+E:\My Projects\SOC\SOC - Project\Mvc\obj\Debug\Mvc.csproj.Up2Date
+E:\My Projects\SOC\SOC - Project\Mvc\obj\Debug\Mvc.dll
+E:\My Projects\SOC\SOC - Project\Mvc\obj\Debug\Mvc.pdb
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Mvc.dll.config
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Mvc.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Mvc.pdb
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\csc.exe
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\csc.exe.config
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\csc.rsp
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\csi.exe
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\csi.exe.config
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\csi.rsp
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.AppContext.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Collections.Immutable.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Console.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Globalization.Calendars.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.IO.Compression.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.IO.FileSystem.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Net.Http.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Net.Sockets.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Reflection.Metadata.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.ValueTuple.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Xml.XPath.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\vbc.exe
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\vbc.exe.config
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\vbc.rsp
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\VBCSCompiler.exe
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\roslyn\VBCSCompiler.exe.config
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Antlr3.Runtime.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Newtonsoft.Json.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Buffers.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Memory.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Net.Http.Formatting.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Numerics.Vectors.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Threading.Tasks.Extensions.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.Helpers.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.Mvc.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.Optimization.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.Razor.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.WebPages.Deployment.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.WebPages.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.WebPages.Razor.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\WebGrease.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.pdb
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Buffers.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Memory.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Net.Http.Formatting.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Numerics.Vectors.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Threading.Tasks.Extensions.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.Helpers.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.Mvc.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.Optimization.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.Razor.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.WebPages.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.WebPages.Deployment.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\System.Web.WebPages.Razor.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Newtonsoft.Json.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Antlr3.Runtime.pdb
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\obj\Debug\Mvc.csproj.AssemblyReference.cache
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\obj\Debug\Mvc.csproj.CoreCompileInputs.cache
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\obj\Debug\Mvc.csproj.Up2Date
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\obj\Debug\Mvc.dll
+D:\New folder (2)\SOC-Malii\SOC - Project\Mvc\obj\Debug\Mvc.pdb
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Mvc.dll.config
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Mvc.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Mvc.pdb
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csc.exe
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csc.exe.config
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csc.rsp
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csi.exe
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csi.exe.config
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csi.rsp
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.AppContext.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Collections.Immutable.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Console.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Globalization.Calendars.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.IO.Compression.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.IO.FileSystem.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Net.Http.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Net.Sockets.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Reflection.Metadata.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.ValueTuple.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Xml.XPath.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\vbc.exe
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\vbc.exe.config
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\vbc.rsp
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\VBCSCompiler.exe
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\VBCSCompiler.exe.config
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Antlr3.Runtime.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Buffers.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Memory.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Net.Http.Formatting.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Numerics.Vectors.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Threading.Tasks.Extensions.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Helpers.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Mvc.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Optimization.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Razor.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.Deployment.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.Razor.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\WebGrease.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.pdb
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Buffers.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Memory.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Net.Http.Formatting.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Numerics.Vectors.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Threading.Tasks.Extensions.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Helpers.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Mvc.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Optimization.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Razor.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.Deployment.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.Razor.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Antlr3.Runtime.pdb
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.csproj.AssemblyReference.cache
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.csproj.CoreCompileInputs.cache
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.csproj.Up2Date
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.dll
+D:\New folder (2)\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.pdb
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Mvc.dll.config
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Mvc.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Mvc.pdb
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csc.exe
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csc.exe.config
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csc.rsp
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csi.exe
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csi.exe.config
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\csi.rsp
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.AppContext.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Collections.Immutable.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Console.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Globalization.Calendars.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.IO.Compression.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.IO.FileSystem.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Net.Http.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Net.Sockets.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Reflection.Metadata.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.ValueTuple.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Xml.XPath.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\vbc.exe
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\vbc.exe.config
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\vbc.rsp
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\VBCSCompiler.exe
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\roslyn\VBCSCompiler.exe.config
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Antlr3.Runtime.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Microsoft.Web.Infrastructure.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Buffers.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Memory.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Net.Http.Formatting.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Numerics.Vectors.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Threading.Tasks.Extensions.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Helpers.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Mvc.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Optimization.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Razor.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.Deployment.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.Razor.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\WebGrease.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.pdb
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.Bson.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Buffers.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Memory.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Net.Http.Formatting.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Numerics.Vectors.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Threading.Tasks.Extensions.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Helpers.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Mvc.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Optimization.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.Razor.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.Deployment.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\System.Web.WebPages.Razor.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Newtonsoft.Json.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Antlr3.Runtime.pdb
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.csproj.AssemblyReference.cache
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.csproj.CoreCompileInputs.cache
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.csproj.Up2Date
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.dll
+D:\Assignments\sem 4\Service Oriented Computing\Cozy\Cozy Comfort\SOC - Project\Mvc\obj\Debug\Mvc.pdb

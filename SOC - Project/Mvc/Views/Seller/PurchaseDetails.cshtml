@@ -1,0 +1,826 @@
+﻿@model Mvc.Models.mvcPurchaseModel
+
+@{
+    ViewBag.Title = "Purchase Details";
+}
+
+<div class="page-container">
+    <!-- Background Elements -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Modern Navbar -->
+    <nav class="modern-navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-logo">
+                    <svg width="32" height="32" viewBox="0 0 48 48" fill="none">
+                        <path d="M24 4L44 14V34L24 44L4 34V14L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+                        <path d="M24 4V44" stroke="currentColor" stroke-width="2" />
+                        <path d="M4 14L44 34" stroke="currentColor" stroke-width="2" />
+                        <path d="M44 14L4 34" stroke="currentColor" stroke-width="2" />
+                    </svg>
+                    <span>Cozy Comfort</span>
+                </div>
+                <span class="portal-tag">Seller Portal</span>
+            </div>
+            <div class="nav-actions">
+                <div class="user-info">
+                    <span class="welcome-text">Welcome, @Session["UserName"]</span>
+                </div>
+                <a href="@Url.Action("Logout", "Login")" class="logout-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                        <polyline points="16,17 21,12 16,7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
+                    </svg>
+                    Logout
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="content-container">
+            <!-- Header Section -->
+            <div class="page-header">
+                <div class="header-content">
+                    <h1 class="page-title">Purchase Details</h1>
+                    <nav class="breadcrumb-nav">
+                        <a href="@Url.Action("Home", "Seller")" class="breadcrumb-link">Dashboard</a>
+                        <span class="breadcrumb-separator">/</span>
+                        <a href="@Url.Action("PurchaseHistory", "Seller")" class="breadcrumb-link">Purchase History</a>
+                        <span class="breadcrumb-separator">/</span>
+                        <span class="breadcrumb-current">Order #@Model.PurchaseId</span>
+                    </nav>
+                </div>
+                <a href="@Url.Action("PurchaseHistory", "Seller")" class="back-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M19 12H5"></path>
+                        <path d="M12 19l-7-7 7-7"></path>
+                    </svg>
+                    Back to History
+                </a>
+            </div>
+
+            <!-- Purchase Details Cards -->
+            <div class="details-grid">
+                <!-- Order Info Card -->
+                <div class="detail-card order-card">
+                    <div class="card-header">
+                        <div class="order-info">
+                            <h2 class="order-number">Order #@Model.PurchaseId</h2>
+                            <div class="status-badge success">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22,4 12,14.01 9,11.01"></polyline>
+                                </svg>
+                                Completed
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Buyer</span>
+                                <span class="info-value">@Model.UserName</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Order Date</span>
+                                <span class="info-value">@DateTime.Now.ToString("MMM dd, yyyy")</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card -->
+                <div class="detail-card product-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Product Details</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="product-info">
+                            <div class="product-details">
+                                <h4 class="product-name">@Model.Productname</h4>
+                                <p class="product-description">Premium quality blanket from CozyComfort</p>
+                            </div>
+                            <div class="quantity-badge">
+                                <span class="quantity-number">@Model.PurchasedQuantity</span>
+                                <span class="quantity-label">units</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Summary Card -->
+                <div class="detail-card summary-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Order Summary</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="summary-item">
+                            <div class="item-details">
+                                <span class="item-name">@Model.Productname</span>
+                                <span class="item-quantity">Quantity: @Model.PurchasedQuantity units</span>
+                            </div>
+                            <div class="item-pricing">
+                                <span class="unit-price">$@((Model.TotalAmount / Model.PurchasedQuantity).ToString("F2")) per unit</span>
+                                <span class="total-price">$@Model.TotalAmount.ToString("F2")</span>
+                            </div>
+                        </div>
+
+                        <div class="summary-divider"></div>
+
+                        <div class="summary-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Items Purchased</span>
+                                <span class="stat-value">@Model.PurchasedQuantity</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Unit Price</span>
+                                <span class="stat-value">$@((Model.TotalAmount / Model.PurchasedQuantity).ToString("F2"))</span>
+                            </div>
+                        </div>
+
+                        <div class="total-section">
+                            <div class="total-row">
+                                <span class="total-label">Total Amount</span>
+                                <span class="total-amount">$@Model.TotalAmount.ToString("F2")</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <a href="@Url.Action("PurchaseHistory", "Seller")" class="btn btn-secondary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M8 6h13"></path>
+                        <path d="M8 12h13"></path>
+                        <path d="M8 18h13"></path>
+                        <path d="M3 6h.01"></path>
+                        <path d="M3 12h.01"></path>
+                        <parton, Jr. h d="M3 18h.01"></path>
+                    </svg>
+                    View All Orders
+                </a>
+                <a href="@Url.Action("AvailableProducts", "Seller")" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14"></path>
+                        <path d="M5 12h14"></path>
+                    </svg>
+                    Make Another Purchase
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Success/Error Messages -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22,4 12,14.01 9,11.01"></polyline>
+        </svg>
+        <span>@TempData["SuccessMessage"]</span>
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-error">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="15" y1="9" x2="9" y2="15"></line>
+            <line x1="9" y1="9" x2="15" y2="15"></line>
+        </svg>
+        <span>@TempData["ErrorMessage"]</span>
+    </div>
+}
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        Matheson
+    }
+
+    body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+        background: linear-gradient(180deg, #fff7ed, #fce7f3);
+        overflow-x: hidden;
+    }
+
+    .page-container {
+        min-height: 100vh;
+        position: relative;
+    }
+
+    .bg-shapes {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .shape {
+        position: absolute;
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgba(251, 113, 133, 0.2), rgba(251, 191, 36, 0.2));
+        backdrop-filter: blur(12px);
+        animation: float 10s ease-in-out infinite;
+    }
+
+    .shape-1 {
+        width: 350px;
+        height: 350px;
+        top: 10%;
+        right: 15%;
+        animation-delay: 0s;
+    }
+
+    .shape-2 {
+        width: 250px;
+        height: 250px;
+        top: 55%;
+        left: 10%;
+        animation-delay: 4s;
+    }
+
+    .shape-3 {
+        width: 180px;
+        height: 180px;
+        bottom: 15%;
+        right: 25%;
+        animation-delay: 8s;
+    }
+
+    @@keyframes float {
+        0%, 100% {
+            transform: translateY(0) rotate(0deg) scale(1);
+        }
+
+        50% {
+            transform: translateY(-40px) rotate(360deg) scale(1.05);
+        }
+    }
+
+    /* Modern Navbar */
+    .modern-navbar {
+        position: relative;
+        z-index: 10;
+        background: rgba(255, 245, 243, 0.95);
+        backdrop-filter: blur(15px);
+        border-bottom: 1px solid rgba(251, 113, 133, 0.2);
+        padding: 1.2rem 0;
+    }
+
+    .nav-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-brand {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .brand-logo {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #ec4899;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .portal-tag {
+        background: linear-gradient(135deg, #fb7185, #f97316);
+        color: white;
+        padding: 0.3rem 0.8rem;
+        border-radius: 25px;
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+
+    .nav-actions {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .user-info {
+        color: #854d0e;
+        font-weight: 500;
+    }
+
+    .logout-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #e11d48;
+        text-decoration: none;
+        padding: 0.6rem 1.2rem;
+        border-radius: 10px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        font-weight: 500;
+    }
+
+        .logout-btn:hover {
+            background: rgba(251, 113, 133, 0.15);
+            color: #be123c;
+            transform: scale(1.02);
+        }
+
+    /* Main Content */
+    .main-content {
+        position: relative;
+        z-index: 2;
+        padding: 2.5rem 0;
+    }
+
+    .content-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.5rem;
+        gap: 2rem;
+    }
+
+    .header-content {
+        flex: 1;
+    }
+
+    .page-title {
+        font-size: 2.7rem;
+        font-weight: 700;
+        color: #4c1d95;
+        margin-bottom: 0.75rem;
+    }
+
+    .breadcrumb-nav {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #854d0e;
+        font-size: 0.95rem;
+    }
+
+    .breadcrumb-link {
+        color: #f97316;
+        text-decoration: none;
+        transition: color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+        .breadcrumb-link:hover {
+            color: #ea580c;
+        }
+
+    .breadcrumb-separator {
+        opacity: 0.6;
+    }
+
+    .breadcrumb-current {
+        font-weight: 500;
+        color: #4c1d95;
+    }
+
+    .back-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #854d0e;
+        text-decoration: none;
+        padding: 0.8rem 1.8rem;
+        background: white;
+        border-radius: 14px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        font-weight: 500;
+        border: 1px solid #fed7aa;
+    }
+
+        .back-btn:hover {
+            color: #ec4899;
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+        }
+
+    /* Details Grid */
+    .details-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .detail-card {
+        background: linear-gradient(145deg, #fff7ed, #fff1f2);
+        border-radius: 20px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        border: 1px solid rgba(255, 245, 243, 0.8);
+        overflow: hidden;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+        .detail-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+        }
+
+    .card-header {
+        padding: 1.8rem 2.2rem;
+        background: linear-gradient(135deg, #fed7aa, #f9a8d4);
+        border-bottom: 1px solid #fed7aa;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #4c1d95;
+        margin: 0;
+    }
+
+    .card-body {
+        padding: 2.2rem;
+    }
+
+    /* Order Card */
+    .order-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .order-number {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #ec4899;
+        margin: 0;
+    }
+
+    .status-badge {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.6rem 1.2rem;
+        border-radius: 25px;
+        font-weight: 500;
+        font-size: 0.95rem;
+    }
+
+        .status-badge.success {
+            background: rgba(219, 234, 254, 0.2);
+            color: #1e40af;
+            border: 1px solid rgba(219, 234, 254, 0.3);
+        }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+    }
+
+    .info-item {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .info-label {
+        color: #854d0e;
+        font-size: 0.95rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .info-value {
+        color: #4c1d95;
+        font-size: 1.15rem;
+        font-weight: 600;
+    }
+
+    /* Product Card */
+    .product-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .product-name {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #ec4899;
+        margin: 0 0 0.6rem 0;
+    }
+
+    .product-description {
+        color: #854d0e;
+        margin: 0;
+        font-size: 0.95rem;
+    }
+
+    .quantity-badge {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.2rem 1.8rem;
+        background: linear-gradient(135deg, #fb7185, #f97316);
+        color: white;
+        border-radius: 14px;
+        text-align: center;
+    }
+
+    .quantity-number {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .quantity-label {
+        font-size: 0.9rem;
+        opacity: 0.9;
+    }
+
+    /* Summary Card */
+    .summary-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2.5rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .item-details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .item-name {
+        font-weight: 600;
+        color: #4c1d95;
+        font-size: 1.15rem;
+    }
+
+    .item-quantity {
+        color: #854d0e;
+        font-size: 0.95rem;
+    }
+
+    .item-pricing {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 0.3rem;
+    }
+
+    .unit-price {
+        color: #854d0e;
+        font-size: 0.95rem;
+    }
+
+    .total-price {
+        font-weight: 700;
+        color: #4c1d95;
+        font-size: 1.15rem;
+    }
+
+    .summary-divider {
+        height: 1px;
+        background: linear-gradient(to right, transparent, #fed7aa, transparent);
+        margin: 1.8rem 0;
+    }
+
+    .summary-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .stat-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.8rem;
+        background: #fff7ed;
+        border-radius: 10px;
+    }
+
+    .stat-label {
+        color: #854d0e;
+        font-weight: 500;
+        font-size: 0.95rem;
+    }
+
+    .stat-value {
+        color: #4c1d95;
+        font-weight: 600;
+    }
+
+    .total-section {
+        background: linear-gradient(135deg, #fed7aa, #f9a8d4);
+        padding: 1.8rem;
+        border-radius: 14px;
+        border: 2px solid #fed7aa;
+    }
+
+    .total-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .total-label {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #4c1d95;
+    }
+
+    .total-amount {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #1e40af;
+    }
+
+    /* Action Buttons */
+    .action-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1.2rem 2.5rem;
+        border-radius: 14px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .btn-secondary {
+        background: white;
+        color: #854d0e;
+        border: 2px solid #fed7aa;
+    }
+
+        .btn-secondary:hover {
+            color: #4c1d95;
+            border-color: #fb7185;
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+        }
+
+    .btn-primary {
+        background: linear-gradient(135deg, #fb7185, #f97316);
+        color: white;
+        border: 2px solid transparent;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 10px 25px rgba(251, 113, 133, 0.3);
+        }
+
+    /* Alert Messages */
+    .alert {
+        position: fixed;
+        top: 2rem;
+        right: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 1.2rem 1.8rem;
+        border-radius: 14px;
+        font-size: 0.95rem;
+        font-weight: 500;
+        z-index: 1000;
+        max-width: 400px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .alert-success {
+        background: rgba(219, 234, 254, 0.2);
+        color: #1e40af;
+        border: 1px solid rgba(219, 234, 254, 0.3);
+    }
+
+    .alert-error {
+        background: rgba(251, 113, 133, 0.15);
+        color: #be123c;
+        border: 1px solid rgba(251, 113, 133, 0.3);
+    }
+
+    /* Responsive Design */
+    @@media (max-width: 768px) {
+        .page-container {
+            padding: 15px;
+        }
+
+        .nav-container {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .nav-actions {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .page-header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .details-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .info-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .product-info {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .summary-item {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .item-pricing {
+            align-items: flex-start;
+        }
+
+        .action-buttons {
+            flex-direction: column;
+        }
+
+        .btn {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .alert {
+            max-width: 90%;
+            right: 5%;
+        }
+    }
+
+    @@media (max-width: 480px) {
+        .page-title {
+            font-size: 2rem;
+        }
+
+        .order-number {
+            font-size: 1.4rem;
+        }
+
+        .product-name {
+            font-size: 1.4rem;
+        }
+
+        .total-amount {
+            font-size: 1.5rem;
+        }
+
+        .content-container {
+            padding: 0 1rem;
+        }
+    }
+</style>

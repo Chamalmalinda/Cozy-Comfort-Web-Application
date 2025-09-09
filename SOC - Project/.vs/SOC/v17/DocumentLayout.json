@@ -1,0 +1,965 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|d:\\assignments\\sem 4\\service oriented computing\\cozy\\cozy comfort\\soc - project\\mvc\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\login\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\login\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\webapi\\areas\\helppage\\helppageconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|solutionrelative:webapi\\areas\\helppage\\helppageconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\globalvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\globalvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\models\\mvcusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\models\\mvcusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\models\\mvcsellerblankets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\models\\mvcsellerblankets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\models\\mvcpurchasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\models\\mvcpurchasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\models\\mvcloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\models\\mvcloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\models\\mvcdistributorproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\models\\mvcdistributorproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\models\\mvcblanketsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\models\\mvcblanketsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\controllers\\manufacturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\controllers\\distributorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\controllers\\distributorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\distributor\\purchasedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\distributor\\purchasedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\seller\\purchaseproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\seller\\purchaseproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\seller\\purchasedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\seller\\purchasedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\manufacturer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\manufacturer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\webapi\\controllers\\blanketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\blanketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\webapi\\models\\dbmodels.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\dbmodels.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\customer\\purchasedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\customer\\purchasedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\customer\\purchaseproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\customer\\purchaseproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\customer\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\customer\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\customer\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\customer\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\customer\\availableproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\customer\\availableproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\distributor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\distributor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\seller\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\seller\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\seller\\availableproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\seller\\availableproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\seller\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\seller\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\seller\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\seller\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\seller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\seller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\distributor\\purchaseproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\distributor\\purchaseproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\distributor\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\distributor\\purchasehistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\distributor\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\distributor\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\distributor\\availableproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\distributor\\availableproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\distributor\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\distributor\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\manufacturer\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\manufacturer\\addoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\manufacturer\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\manufacturer\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\content\\alertifyjs\\alertify.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\content\\alertifyjs\\alertify.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\content\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\content\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\webapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{284DBC78-9022-4736-BC80-846F5F0B4616}|WebApi\\WebApi.csproj|solutionrelative:webapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\mvc\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{85F136F9-32F1-4128-A47F-FB7EEFBFEB4B}|Mvc\\Mvc.csproj|solutionrelative:mvc\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Login\\Login.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:08:44.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HelpPageConfigurationExtensions.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Areas\\HelpPage\\HelpPageConfigurationExtensions.cs",
+              "RelativeDocumentMoniker": "WebApi\\Areas\\HelpPage\\HelpPageConfigurationExtensions.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Areas\\HelpPage\\HelpPageConfigurationExtensions.cs",
+              "RelativeToolTip": "WebApi\\Areas\\HelpPage\\HelpPageConfigurationExtensions.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:43:53.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Web.config",
+              "RelativeDocumentMoniker": "Mvc\\Web.config",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Web.config",
+              "RelativeToolTip": "Mvc\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-01T03:43:38.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\packages.config",
+              "RelativeDocumentMoniker": "Mvc\\packages.config",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\packages.config",
+              "RelativeToolTip": "Mvc\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-01T03:43:36.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlobalVariables.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\GlobalVariables.cs",
+              "RelativeDocumentMoniker": "Mvc\\GlobalVariables.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\GlobalVariables.cs",
+              "RelativeToolTip": "Mvc\\GlobalVariables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:43:34.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Mvc\\Global.asax.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Global.asax.cs",
+              "RelativeToolTip": "Mvc\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:43:32.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\favicon.ico",
+              "RelativeDocumentMoniker": "Mvc\\favicon.ico",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "RelativeToolTip": "Mvc\\favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-07-01T03:43:26.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "mvcUserModel.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcUserModel.cs",
+              "RelativeDocumentMoniker": "Mvc\\Models\\mvcUserModel.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcUserModel.cs",
+              "RelativeToolTip": "Mvc\\Models\\mvcUserModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:43:16.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "mvcSellerBlankets.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcSellerBlankets.cs",
+              "RelativeDocumentMoniker": "Mvc\\Models\\mvcSellerBlankets.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcSellerBlankets.cs",
+              "RelativeToolTip": "Mvc\\Models\\mvcSellerBlankets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T03:43:15.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PurchaseDetails.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\PurchaseDetails.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Distributor\\PurchaseDetails.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\PurchaseDetails.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Distributor\\PurchaseDetails.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAALMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:53:39.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PurchaseDetails.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\PurchaseDetails.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Customer\\PurchaseDetails.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\PurchaseDetails.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Customer\\PurchaseDetails.cshtml",
+              "ViewState": "AgIAAMECAAAAAAAAAAArwNsCAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T14:14:01.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PurchaseProduct.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\PurchaseProduct.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Customer\\PurchaseProduct.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\PurchaseProduct.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Customer\\PurchaseProduct.cshtml",
+              "ViewState": "AgIAAH8CAAAAAAAAAADgv6ECAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T14:13:58.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\Home.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Customer\\Home.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\Home.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Customer\\Home.cshtml",
+              "ViewState": "AgIAAJACAAAAAAAAAADgv6kCAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T09:50:45.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:44:28.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DistributorController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\DistributorController.cs",
+              "RelativeDocumentMoniker": "Mvc\\Controllers\\DistributorController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\DistributorController.cs",
+              "RelativeToolTip": "Mvc\\Controllers\\DistributorController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAcwN4AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:35:54.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SellerController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\SellerController.cs",
+              "RelativeDocumentMoniker": "Mvc\\Controllers\\SellerController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\SellerController.cs",
+              "RelativeToolTip": "Mvc\\Controllers\\SellerController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:18:09.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Mvc\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Mvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:15:14.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Mvc\\Controllers\\CustomerController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Mvc\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:08:44.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "mvcBlanketsModel.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcBlanketsModel.cs",
+              "RelativeDocumentMoniker": "Mvc\\Models\\mvcBlanketsModel.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcBlanketsModel.cs",
+              "RelativeToolTip": "Mvc\\Models\\mvcBlanketsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:08:36.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:36:13.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "mvcPurchaseModel.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcPurchaseModel.cs",
+              "RelativeDocumentMoniker": "Mvc\\Models\\mvcPurchaseModel.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcPurchaseModel.cs",
+              "RelativeToolTip": "Mvc\\Models\\mvcPurchaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:03:50.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "mvcLoginModel.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcLoginModel.cs",
+              "RelativeDocumentMoniker": "Mvc\\Models\\mvcLoginModel.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcLoginModel.cs",
+              "RelativeToolTip": "Mvc\\Models\\mvcLoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:03:46.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "mvcDistributorProducts.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcDistributorProducts.cs",
+              "RelativeDocumentMoniker": "Mvc\\Models\\mvcDistributorProducts.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Models\\mvcDistributorProducts.cs",
+              "RelativeToolTip": "Mvc\\Models\\mvcDistributorProducts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:03:43.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManufacturerController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\ManufacturerController.cs",
+              "RelativeDocumentMoniker": "Mvc\\Controllers\\ManufacturerController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\ManufacturerController.cs",
+              "RelativeToolTip": "Mvc\\Controllers\\ManufacturerController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:03:00.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BlanketController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Controllers\\BlanketController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\BlanketController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Controllers\\BlanketController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\BlanketController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAhwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:00:25.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PurchaseHistory.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\PurchaseHistory.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Customer\\PurchaseHistory.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\PurchaseHistory.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Customer\\PurchaseHistory.cshtml",
+              "ViewState": "AgIAACwBAAAAAAAAAADgv0cBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T04:24:07.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PurchaseProduct.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\PurchaseProduct.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Distributor\\PurchaseProduct.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\PurchaseProduct.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Distributor\\PurchaseProduct.cshtml",
+              "ViewState": "AgIAAI4CAAAAAAAAAADwv6UCAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T14:13:42.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PurchaseHistory.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\PurchaseHistory.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Distributor\\PurchaseHistory.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\PurchaseHistory.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Distributor\\PurchaseHistory.cshtml",
+              "ViewState": "AgIAAKsCAAAAAAAAAADwv8UCAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:56:19.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Distributor\\Index.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\Index.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Distributor\\Index.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAADgv/0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:41:15.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\Home.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Distributor\\Home.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\Home.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Distributor\\Home.cshtml",
+              "ViewState": "AgIAAK8CAAAAAAAAAADwv8sCAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:37:08.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AvailableProducts.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\AvailableProducts.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Distributor\\AvailableProducts.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\AvailableProducts.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Distributor\\AvailableProducts.cshtml",
+              "ViewState": "AgIAAPQAAAAAAAAAAADgvxMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:33:45.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Distributor\\AddOrEdit.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Distributor\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Distributor\\AddOrEdit.cshtml",
+              "ViewState": "AgIAAPYAAAAAAAAAAADgvw0BAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:29:17.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAADgvygAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:28:03.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:27:51.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:27:48.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PurchaseProduct.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\PurchaseProduct.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Seller\\PurchaseProduct.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\PurchaseProduct.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Seller\\PurchaseProduct.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAACwDAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:04:24.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PurchaseHistory.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\PurchaseHistory.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Seller\\PurchaseHistory.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\PurchaseHistory.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Seller\\PurchaseHistory.cshtml",
+              "ViewState": "AgIAAMECAAAAAAAAAADwv/kCAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T13:01:14.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PurchaseDetails.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\PurchaseDetails.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Seller\\PurchaseDetails.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\PurchaseDetails.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Seller\\PurchaseDetails.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAABgDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:58:08.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Seller\\Index.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\Index.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Seller\\Index.cshtml",
+              "ViewState": "AgIAACoCAAAAAAAAAADwvzwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:55:06.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\Home.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Seller\\Home.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\Home.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Seller\\Home.cshtml",
+              "ViewState": "AgIAAIECAAAAAAAAAADgv6MCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:48:54.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AvailableProducts.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\AvailableProducts.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Seller\\AvailableProducts.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\AvailableProducts.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Seller\\AvailableProducts.cshtml",
+              "ViewState": "AgIAAP8AAAAAAAAAAADgvxsBAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:44:01.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Seller\\AddOrEdit.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Seller\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Seller\\AddOrEdit.cshtml",
+              "ViewState": "AgIAAC0CAAAAAAAAAADwv0oCAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:41:03.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Manufacturer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Manufacturer\\Index.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Manufacturer\\Index.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Manufacturer\\Index.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAowBwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:25:05.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Manufacturer\\Home.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Manufacturer\\Home.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Manufacturer\\Home.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Manufacturer\\Home.cshtml",
+              "ViewState": "AgIAAFwCAAAAAAAAAAAQwH0CAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:25:01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Manufacturer\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Manufacturer\\AddOrEdit.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Manufacturer\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Manufacturer\\AddOrEdit.cshtml",
+              "ViewState": "AgIAAP0AAAAAAAAAAADgvxYBAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:24:20.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddOrEdit.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Login\\AddOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Login\\AddOrEdit.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Login\\AddOrEdit.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Login\\AddOrEdit.cshtml",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAiwAsBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:19:32.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:19:21.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:19:17.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T10:18:15.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T10:17:51.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "alertify.css",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Content\\alertifyjs\\alertify.css",
+              "RelativeDocumentMoniker": "Mvc\\Content\\alertifyjs\\alertify.css",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Content\\alertifyjs\\alertify.css",
+              "RelativeToolTip": "Mvc\\Content\\alertifyjs\\alertify.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-26T10:10:44.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Content\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "Mvc\\Content\\bootstrap-grid.css",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Content\\bootstrap-grid.css",
+              "RelativeToolTip": "Mvc\\Content\\bootstrap-grid.css",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-26T10:10:23.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Web.config",
+              "RelativeDocumentMoniker": "WebApi\\Web.config",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Web.config",
+              "RelativeToolTip": "WebApi\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-26T10:10:13.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Web.config",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Web.config",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Web.config",
+              "RelativeToolTip": "Mvc\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-26T10:10:01.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Mvc\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Mvc\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T09:50:54.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AvailableProducts.cshtml",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\AvailableProducts.cshtml",
+              "RelativeDocumentMoniker": "Mvc\\Views\\Customer\\AvailableProducts.cshtml",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Views\\Customer\\AvailableProducts.cshtml",
+              "RelativeToolTip": "Mvc\\Views\\Customer\\AvailableProducts.cshtml",
+              "ViewState": "AgIAAPkAAAAAAAAAAADgvxkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T09:50:21.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Mvc\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\Mvc\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Mvc\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowE4AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T00:19:45.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DBModels.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Models\\DBModels.edmx",
+              "RelativeDocumentMoniker": "WebApi\\Models\\DBModels.edmx",
+              "ToolTip": "D:\\Assignments\\sem 4\\Service Oriented Computing\\Cozy\\Cozy Comfort\\SOC - Project\\WebApi\\Models\\DBModels.edmx [Diagram1]",
+              "RelativeToolTip": "WebApi\\Models\\DBModels.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-06-26T00:11:12.211Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
